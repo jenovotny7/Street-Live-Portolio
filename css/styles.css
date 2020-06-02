@@ -1,0 +1,544 @@
+
+
+/*header style*/
+.header{
+    background-image: url('https://wallpaperaccess.com/full/139517.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 150%;
+
+}
+
+
+p {
+  font-family: cursive;
+}
+
+.navbar-dark .navbar-brand {color: rgb(255, 115, 0);
+font-family: cursive;
+font-size: 28px;}
+
+button{
+    user-select:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    cursor:pointer;
+    border:none;
+    padding:5px;
+    font-size: 25px;
+    background:linear-gradient(141deg,  rgb(255, 115, 0),  rgb(255, 115, 0),  white);
+    color: white;
+    font-family:fantasy;
+    box-sizing:border-box;
+    margin-bottom: 2em;
+    
+  }
+
+  button:hover {
+    opacity: .8;
+  }
+
+
+  .modal-label{
+    user-select:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    cursor:pointer;
+    border:none;
+    padding:5px;
+    width: 200px;
+    font-size: 25px;
+    background:linear-gradient(141deg, purple, white black);
+    color:white;
+    font-family: fantasy;
+    box-sizing:border-box;
+    margin: .7em;
+    margin-left: 2em;
+  }
+
+  .modal-label :hover {
+    opacity: .8;
+  }
+
+
+
+
+
+   
+
+.description{
+    position: left;
+    top: 25%;
+    margin: -10;
+    padding: 4em;
+    
+}
+.description h1{
+ color:  rgb(255, 115, 0);
+ font-family: cursive;
+ font-size: 55px;
+
+}
+.description p{
+ color: white;
+ font-size: 18px;
+ width: 50%;
+ line-height: 1.5;
+}
+.description button{
+ border:3px  solid #F97300;
+ background:#F97300;
+ color:#fff;
+ 
+ 
+}
+
+.info {
+    margin:0;
+    padding: 1em;
+    position: relative;
+    background-color:  purple;
+   }
+   .info h1{
+    color: white;
+    margin: 2em;
+    font-family: sans-serif;
+    
+   }
+   .info img{
+    height: 100%;
+       width: 100%;
+       border-radius: 50%
+   }
+   .info span{
+    display: block;
+    color:  white;
+    position: absolute;
+    left: 115px;
+   }
+   .info .desc{
+    padding: 2em;
+    border-left:4px solid #10828C;
+   }
+   .info .desc h3{
+    color:  rgb(255, 115, 0);
+    font-family:cursive;
+   }
+   .info .desc p{
+    line-height:2;
+    color:white;
+   }
+
+   /*Rankings*/
+.portfolio{
+       background-image: url('https://watermark.lovepik.com/photo/50083/4881.jpg_wh1200.jpg');
+       background-attachment: fixed;
+       background-position: center;
+       background-repeat: no-repeat;
+     background-size: cover;
+   
+    }
+   .portfolio h1{
+    color: white;
+    margin: 2em;
+    font-family: sans-serif;
+    
+}
+
+
+
+   .portfolio img{
+     height: 15rem;
+     width: 100%;
+     margin: 1em;
+     
+   }
+
+   .meme_container {
+    position: relative;   
+   }
+
+   .meme_container .bottom_meme {
+    position:absolute;
+    bottom:0;
+    left:30;
+    margin-left: 0em;
+    color: white;
+    font-size: 90px;
+    
+
+}
+
+   .middle-img {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+  .container-img:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container-img:hover .middle-img {
+    opacity: 1;
+  }
+
+  
+
+
+  
+  .text-img {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+
+
+
+   /*Gameplay*/
+   .gameplay h1{
+    color: black;
+    margin: 2em;
+    font-family: sans-serif;
+    
+    
+    
+
+}
+
+   
+
+.gameplay {
+    background-image: url('https://c8.alamy.com/comp/J2KTD1/basketball-court-floor-with-line-on-wooden-J2KTD1.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+article h3 {
+  padding: 10px;
+  color: #fff;
+}
+article .count {
+  padding: 5px;
+}
+article #shotclock{
+  padding: 5px;
+  color: crimson;
+  background-color: aliceblue;
+  border-radius: 2px;
+}
+
+
+
+
+  .jumbotron-player{
+    background: url(https://www.wallpapersin4k.org/wp-content/uploads/2017/04/Blue-Jordan-Logo-Wallpaper-10.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+
+  }
+
+  
+        
+
+  
+         
+      
+  
+
+  .jumbotron-special{
+    background:  url(https://3.bp.blogspot.com/-0vgH65UHFX0/W-XeBSO4UKI/AAAAAAAAAjA/MlQ7z_tB_d4Eqj22676sJcbyXTImzy3CwCHMYCw/s1600/basketball-wallpaper-04-1280x720.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+     
+  }
+
+  .jumbotron-ref{
+    background:  url(https://www.fai.org/sites/default/files/isc/rules.jpeg) bottom fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    
+  
+  
+     }
+
+/*Ranking Style*/
+
+.header-rank{
+     background-image: url("data:image/jpeg;base64,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");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;
+
+
+
+
+}
+
+
+
+
+table
+{
+  border-collapse: collapse;
+}
+th,td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+
+thead > tr {
+  background-color:black;
+}
+
+
+td
+{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+}
+td {
+  background-color: white;
+  color: black;
+  
+}
+tr{
+  background-color: purple;
+}
+
+
+tr:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.rank h1 { color: white;
+   text-align: center;
+
+
+}
+
+
+
+
+
+
+
+
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+    
+
+
+
+
+div.card {background-color: red;}
+
+#loginModal .modal-header {
+    background-color: purple;
+    color: whitesmoke;
+    font-style: italic;
+}
+  
+
+
+
+
+
+ 
+ 
+/* The footer is fixed to the bottom of the page */
+ 
+footer{
+
+    bottom: 0;
+}
+ 
+ 
+
+.footer-distributed{
+    background-color:  rgb(255, 115, 0);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    
+}
+ 
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: top;
+}
+ 
+/* Footer left */
+ 
+.footer-distributed .footer-left{
+    width: 30%;
+}
+ 
+.footer-distributed h3{
+    color:  #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 10;
+}
+ 
+/* The company logo */
+ 
+.footer-distributed .footer-left img{
+    width: 35%;
+}
+ 
+.footer-distributed h3 span{
+    color:  purple;
+}
+ 
+/* Footer links */
+ 
+.footer-distributed .footer-links{
+    color:  #ffffff;
+    margin: 20px 0 12px;
+}
+ 
+.footer-distributed .footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color:  inherit;
+}
+ 
+.footer-distributed .footer-company-name{
+    color:  white;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+ 
+/* Footer Center */
+ 
+.footer-distributed .footer-center{
+    width: 35%;
+}
+ 
+ 
+.footer-distributed .footer-center i{
+    background-color:  purple;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+ 
+.footer-distributed .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+}
+ 
+.footer-distributed .footer-center p{
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin:0;
+}
+ 
+.footer-distributed .footer-center p span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+}
+ 
+.footer-distributed .footer-center p a{
+    color:   purple;
+    text-decoration: none;;
+}
+ 
+ 
+/* Footer Right */
+ 
+.footer-distributed .footer-right{
+    width: 30%;
+}
+ 
+.footer-distributed .footer-company-about{
+    line-height: 20px;
+    color:  purple;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+ 
+.footer-distributed .footer-company-about span{
+    display: block;
+    color:  #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+ 
+.footer-distributed .footer-icons{
+    margin-top: 25px;
+}
+ 
+.footer-distributed .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color:  purple;
+    border-radius: 2px;
+ 
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+ 
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+
+

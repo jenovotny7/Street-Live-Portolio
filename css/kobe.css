@@ -1,0 +1,107 @@
+ body {
+    height: 100%;
+    text-align: center;
+    margin: 0;
+    overflow:hidden;
+    cursor:grab;
+    -webkit-tap-highlight-color:  rgba(255, 255, 255, 0); 
+    
+  }
+
+  
+
+
+   
+
+
+  body:active{
+    cursor:grabbing;
+  }
+  canvas {
+    margin: 0px auto;
+  }
+  .hoop{
+    position:absolute;
+    top:50vh;
+    right:0;
+    transform:translate(0%,-70%);
+    opacity:0.6;
+    height:110px;
+  }
+  .rim{
+    position:fixed;
+    top:40.66vh;
+    background-color: purple;
+    width:95px;
+    height:10px;
+    border-radius:50px;
+    border:solid 2px #000;
+  }
+  .right{
+    right:-1px;
+  }
+  .left{
+    left:-1px;
+  }
+  
+  #kobe{
+    position:absolute;
+    top:25vh;
+    left:50vw;
+    font-size:2em;
+    opacity:0;
+    z-index:10;
+    user-select: none;
+          -moz-user-select: none;
+          -khtml-user-select: none;
+          -webkit-user-select: none;
+          -o-user-select: none;
+      pointer-events: none;
+      background: none !important;
+      font-family: 'Zhi Mang Xing', cursive;
+      transition:800ms;
+      transform:translate(-50%,-50%);
+      color:rgb(84,37,131);
+  }
+  #red{
+    position:fixed;
+    top:0vh;
+    right:5vh;
+    font-size:1.6em;
+    opacity:0.8;
+    z-index:1000;
+    user-select: none;
+          -moz-user-select: none;
+          -khtml-user-select: none;
+          -webkit-user-select: none;
+          -o-user-select: none;
+      pointer-events: none;
+      font-family: 'Zhi Mang Xing', cursive;
+      color: purple;
+  }
+
+
+
+  button{
+      position: absolute;
+      left: -810px;
+     width: 400px;
+    user-select:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    cursor:pointer;
+    border:none;
+    
+
+    
+    
+    font-size: 30px;
+    background:linear-gradient(141deg, purple, black, purple);
+    color: white;
+    font-family:cursive;
+    
+    
+    
+  }
+
